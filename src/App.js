@@ -8,6 +8,7 @@ import Start from './Start';
 import { ThemeProvider } from "@material-tailwind/react";
 import Navbar from './srcHome/component/Home/Navbar';
 import Score from './score';
+// this is 
 import Answer from './answer';
 import Leaderboard from './leaderBoard';
 import HomePage from './srcHome/component/Home/HomePage';
