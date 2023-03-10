@@ -1,0 +1,16 @@
+/*
+=============== 
+Variables
+===============
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[disabled] {
+    opacity: .6;
+    cursor: default;
+  }
+  .not-allowed {
+    cursor: not-allowed;
+  }
