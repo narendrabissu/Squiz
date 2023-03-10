@@ -25,7 +25,7 @@ function Score() {
             if (score === 0) {
                 clearInterval(progress);
             } else
-                progressStartValue++;
+                progressStartValue++;   
 
             progressValueRef.current.textContent = `${progressStartValue}%`
             circularProgressRef.current.style.background = `conic-gradient(#7d2ae8 ${progressStartValue * 3.6}deg, #ededed 0deg)`
